@@ -75,3 +75,6 @@ group :test do
 end
 
 gem 'better_errors', '~>2.9', '>= 2.9.1'
+gem "twitter", "~> 7.0"
+
+gem "sidekiq", "~> 6.5"

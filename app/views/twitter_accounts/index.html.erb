@@ -10,7 +10,7 @@
         <%= link_to "@#{twitter_account.name}", "https://twitter.com/#{twitter_account.username}", target: :_blank %> 
     </div>
 
-    <%= button_to "Disconnect", twitter_account, method: :delete,form: {data: {turbo_confirm: "Are you sure?"}} %>    
+    <%= button_to "Disconnect", twitter_account, method: :delete, class: "btn btn-outline-danger", form: {data: {turbo_confirm: "Are you sure?" }} %>    
 
     </div>
 <% end %>
