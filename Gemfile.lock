@@ -101,6 +101,7 @@ GEM
     equalizer (0.0.11)
     erubi (1.11.0)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
@@ -140,6 +141,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.16.2)
     msgpack (1.5.4)
     multipart-post (2.2.3)
@@ -159,7 +161,8 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.8-x86_64-darwin)
+    nokogiri (1.13.8)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     oauth (0.5.10)
     omniauth (2.1.0)
@@ -279,6 +282,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  unknown
   x86_64-darwin-20
 
 DEPENDENCIES
@@ -309,4 +313,4 @@ RUBY VERSION
    ruby 3.0.0p0
 
 BUNDLED WITH
-   2.3.19
+   2.3.20
