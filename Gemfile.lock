@@ -101,6 +101,7 @@ GEM
     equalizer (0.0.11)
     erubi (1.11.0)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-unknown)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -184,6 +185,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-protection (2.2.2)
       rack
     rack-test (2.0.2)
@@ -299,6 +302,7 @@ DEPENDENCIES
   omniauth-twitter
   pg (~> 1.1)
   puma (~> 5.0)
+  rack-cors
   rails (~> 7.0.3)
   selenium-webdriver
   sidekiq (~> 6.5)

@@ -8,6 +8,7 @@ gem "rails", "~> 7.0.3"
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem "omniauth-rails_csrf_protection"
+gem 'rack-cors', :require => 'rack/cors'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
